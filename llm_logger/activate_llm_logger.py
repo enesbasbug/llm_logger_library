@@ -9,10 +9,10 @@ def activate_llm_logger(user_prompt, system_prompt, result):
     
     log_message = (
         f"{timestamp} - Function: {calling_function}\n"
-        f"System Prompt: {system_prompt}\n"
-        f"User Prompt: {user_prompt}\n"
-        f"Response: {result}\n"
-        "------\n"
+        f"System Prompt:\n{system_prompt}\n"
+        f"User Prompt:\n{user_prompt}\n"
+        f"\n\nResponse:\n{result}\n"
+        "\n------\n"
     )
     
     print(log_message)  # Print to console
