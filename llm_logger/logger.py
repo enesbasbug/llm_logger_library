@@ -23,7 +23,8 @@ class Logger:
         
         print(log_message)  # Print to console
         
-        log_file = os.path.join(self.log_folder, f"{datetime.now().strftime('%Y-%m-%d')}.log")
+        # Use the correct log file naming format
+        log_file = os.path.join(self.log_folder, f"log-{datetime.now().strftime('%Y-%m-%d')}.log")
         with open(log_file, "a") as f:
             f.write(log_message)
 
