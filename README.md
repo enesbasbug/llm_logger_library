@@ -13,5 +13,5 @@ LLM Logger is a simple and reusable logging library designed to log system promp
 To use the `LLM Logger`, clone the repository from GitHub:
 
 ```sh
-git clone https://github.com/enesbasbug/llm_logger.git
+git clone https://github.com/enesbasbug/llm_logger_library
 cd llm_logger
